@@ -1,0 +1,180 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000000;
+  --background-hover: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  background: #f4f4f4;
+  padding: 20px 0 20px 10px;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 20px;
+  font-style: inherit;
+}
+
+/* Utility classes */
+.shadow {
+  box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.80);
+  margin-bottom: 30px;
+}
+
+.date {
+  background: none;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.content {
+  padding: 15px 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333;
+  padding: 10px 20px;
+  border: 0.05px #555 solid;
+}
+
+.btn:hover,
+.btn-dark:hover {
+  color: #000000;
+  background: var(--background-hover)
+}
+
+.btn-dark {
+  display: inline-block;
+  background: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0.05px #333 solid;
+}
+
+.bg-dark {
+  padding: 0px 3px;
+  background: var(--primary-color) !important;
+  color: #fff;                   
+}
+
+.no-cursor {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+/* header */
+#head {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+#head h1 {
+  font-size: 40px;
+}
+
+#head p {
+  font-size: 15px;
+}
+
+/* body */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#left {
+  flex: 2;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#left img,
+#right img {
+  width: 100%;
+}
+
+/* #left */
+#left .post .content > div {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left .post .content div p {
+  margin: initial;
+}
+
+/* Right */
+#popular-post li {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+#popular-post img {
+  width: 15%;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#popular-post li:hover {
+  background: var(--background-hover)
+}
+
+/* Tags */
+#tags span {
+  background: #f4f4f4;
+  padding: 0px 7px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Foot */
+#main-foot {
+  background: #555;
+  height: 150px;
+  padding: 20px;
+}
+
+#main-foot p {
+  color: #fff;
+  margin: 20px 0px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#main-foot p a {
+  color: #fff;
+  text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+
+#whatwedo .items {
+  display: block;
+  padding: 1rem;
+}
+
+
+/* Align icon to left */
+#whatwedo .items .item {
+  display: flex;
+  text-align: left;
+}
+
+#whatwedo .items .item i {
+  margin-right: 1rem;
+  align-self: center;
+}
+
+/* Maps larger */
+#contact .map {
+  flex : 2;
+}
+
+@media(max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 110px;
+  }
+
+  #whoweare {
+    display: block;
+  }
+
+  #whoweare .who-img {
+    display: none;
+  }
+}

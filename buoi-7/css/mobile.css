@@ -1,0 +1,19 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#navbar ul {
+  flex-direction: column;
+}
+
+@media(max-width: 400px) {
+  #navbar {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    width: 100%;
+  }
+}

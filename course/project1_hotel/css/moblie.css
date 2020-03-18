@@ -1,0 +1,42 @@
+#navbar h1 {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li
+{
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border: #333 4px dotted;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.box {
+  float: none;
+  width: 100%
+}
+
+/* About */
+
+#about-hotel .about-right {
+  float: none;
+  width: 100%;
+  border : none;
+}
+
+#about-hotel .about-left {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+/* contact */
+
+#contact-hotel .box {
+  border-bottom: #fff solid 2px;
+}

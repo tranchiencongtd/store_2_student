@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  background: #ecdede;
+  z-index: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+}
+
+header .logo h2
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.clr {
+  clear: both;
+}
+
+.logo p {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.menu {
+  background: #333;
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.menu .left li {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Content */
+
+.img-1 {
+  height: 100px;
+  background: green;
+}
+
+.container {
+  width: 70%;
+  margin: 10px;
+  float: left;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+p {
+  margin: 10px 10px 10px 0px;
+}
+
+.content-1 {
+  background: green;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.content-2 {
+  background: green;
+  height: 300px;
+}
+
+.left .about-me {
+  float: right;
+  width: 26%;
+  background: green;
+  height: 300px;
+  margin: 10px 0px 0px 5px;
+  padding: 10px;
+}
+
+.left .popular-post {
+  float: right;
+  width: 26%;
+  background: green;
+  height: 200px;
+  margin: 10px 0px 0px 5px;
+  padding: 10px;
+}
+
+.left .follow-me {
+  float: right;
+  width: 26%;
+  background: green;
+  height: 100px;
+  margin: 10px 0px 0px 5px;
+  padding: 10px;
+}
+
+.foot {
+  width: 100%;
+  height: 40px;
+  background: #333;
+  text-align: center;
+  padding-top: 10px;
+}

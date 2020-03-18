@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* For All */
+.clr {
+  clear: both;
+}
+
+.container {
+  background: #bcc6e5;
+  height: auto;
+  float: left;
+  width: 100%;
+  margin: 0px;
+}
+
+/* div {
+  border: 1px #ffffff solid; 
+} */
+
+/* Header */
+
+.header {
+  height: 20px;
+  background: #ffdbac;
+  width: 100%;
+  margin: 5px;
+}
+
+/* Body */
+
+.body {
+  height: 600px;
+  width: 100%;
+}
+
+
+/* Left */
+
+.left-main {
+  height: 100%;
+  width: 55%;
+  margin-left: 5px;
+  float: left;
+}
+
+.header-left-main {
+  width: 100%;
+  height: 50%;
+  background: blue;
+  margin-bottom: 5px;
+}
+
+.wrap-left {
+  width: 100%;
+  height: 50%;
+  
+}
+
+.left-in-left {
+  width: 40%;
+  height: 98%;
+  float: left;
+}
+
+.left-in-left .left-top {
+  height: 40%;
+  background: red;
+  margin-bottom: 5px;
+}
+
+.left-in-left .left-bot {
+  background: #fa7c8a;
+  height: 60%;
+}
+
+.right-in-left {
+  height: 100%;
+  width: 59.3%;
+  background: #333;
+  float: left;
+  margin-left: 5px;
+}
+
+
+/* Right */
+.right-main {
+  width: 44%;
+  height: 100%;
+  float: right;
+  margin-right: 5px;
+}
+
+.head-right-main {
+  width: 100%;
+  height: 20%;
+}
+
+.head-right-main .left {
+  background: #345345;
+  height: 100%;
+  width: 69%;
+  float: left;
+}
+
+.head-right-main .right {
+  background: #345363;
+  height: 100%;
+  width: 30%;
+  float: left;
+  margin-left: 5px;
+}
+
+.middle-right {
+  height: 20%;
+  width: 100%;
+  background: yellow;
+  margin: 5px 0px;
+}
+
+.bot-mid-right {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box1 {
+  background: green;
+  height: 100%;
+  width: 30%;
+}
+
+.box2 {
+  background: #764213;
+  height: 100%;
+  width: 30%;
+}
+
+.box3 {
+  background: #124;
+  height: 100%;
+  width: 30%;
+}
+
+.bot-right {
+  width: 100%;
+  height: 7%;
+  background: #531374;
+  margin-top: 12px;
+}
+
+/* Footer  */
+
+.footer {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: black;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+

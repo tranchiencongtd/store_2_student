@@ -1,0 +1,9 @@
+.container {
+  flex-direction: column;
+}
+
+#right,
+#left {
+  width: 100%;
+}
+
